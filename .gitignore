@@ -1,0 +1,14 @@
+# Ignore all log files
+*.log
+
+# Ignore the node_modules directory
+node_modules/
+
+# Ignore the .env file containing environment variables
+.env
+
+# Ignore macOS-specific files
+.DS_Store
+
+# Ignore VS Code settings
+.vscode/

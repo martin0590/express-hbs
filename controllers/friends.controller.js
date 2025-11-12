@@ -1,4 +1,4 @@
-const model = require('../models/friends.model')
+const model = require("../models/friends.model");
 
 function postFriend(req, res) {
   if (!req.body?.name) {
@@ -33,7 +33,7 @@ function getFriend(req, res) {
 }
 
 module.exports = {
-    getFriend,
-    getFriends,
-    postFriend
-}
+  getFriend,
+  getFriends,
+  postFriend,
+};
